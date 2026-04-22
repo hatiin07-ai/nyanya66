@@ -16,29 +16,29 @@
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #FFF8F6;
+  background: #F6F8FF;
 }
 ::-webkit-scrollbar-thumb {
-  background: #E0D6D6;
+  background: #D6E2FF;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #E8A0A0;
+  background: #AFC8FF;
 }
 
 /* ---- Action Buttons ---- */
 .btn-edit {
   padding: 0.25rem 0.625rem;
   font-size: 0.75rem;
-  color: #D4727A;
+  color: #6E8BFF;
   background: white;
-  border: 1px solid rgba(212, 114, 122, 0.3);
+  border: 1px solid rgba(110, 139, 255, 0.3);
   border-radius: 0.5rem;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 .btn-edit:hover {
-  background: #FFF0ED;
+  background: #EEF3FF;
 }
 .btn-delete {
   padding: 0.25rem 0.625rem;
@@ -51,9 +51,9 @@
   transition: all 0.2s ease;
 }
 .btn-delete:hover {
-  background: #fee2e2;
-  color: #ef4444;
-  border-color: rgba(239, 68, 68, 0.3);
+  background: #FFECEC;
+  color: #FF6B6B;
+  border-color: rgba(255, 107, 107, 0.3);
 }
 
 /* ---- Toast Notification ---- */
@@ -67,8 +67,8 @@
   font-size: 0.875rem;
   font-weight: 500;
   color: white;
-  background: #D4727A;
-  box-shadow: 0 4px 12px rgba(212, 114, 122, 0.3);
+  background: #6E8BFF;
+  box-shadow: 0 4px 12px rgba(110, 139, 255, 0.3);
   opacity: 0;
   transition: all 0.3s ease;
   z-index: 9999;
